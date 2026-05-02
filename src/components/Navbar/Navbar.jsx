@@ -4,7 +4,7 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <header className="border-b">
+    <header className="bg-base-100 border-b">
       <Container>
         <div className="navbar bg-base-100 px-0">
           <div className="navbar-start w-full sm:w-1/2">
@@ -79,7 +79,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end w-fit sm:w-1/2">
-            <a className="btn hidden sm:inline-flex text-white bg-gradient-to-br from-[#632ee3] to-[#9f62f2] hover:from-[#7c3aed] hover:to-[#c084fc] transition-all duration-500">
+            <a className="btn hidden sm:inline-flex text-white bg-linear-to-br from-[#632ee3] to-[#9f62f2] hover:from-[#7c3aed] hover:to-[#c084fc] transition-all duration-500">
               <FontAwesomeIcon icon={faPlus} />
               New Ticket
             </a>
