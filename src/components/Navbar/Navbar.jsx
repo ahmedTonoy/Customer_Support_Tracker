@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Container from "./shared/container";
+import Container from "../shared/Container";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
@@ -79,11 +79,11 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end w-fit sm:w-1/2">
-            <a className="btn hidden sm:inline-flex text-white bg-linear-120 from-[#632ee3] to-[#9f62f2]">
+            <a className="btn hidden sm:inline-flex text-white bg-gradient-to-br from-[#632ee3] to-[#9f62f2] hover:from-[#7c3aed] hover:to-[#c084fc] transition-all duration-500">
               <FontAwesomeIcon icon={faPlus} />
               New Ticket
             </a>
-            <a className="btn text-sm sm:hidden text-white bg-linear-120 from-[#632ee3] to-[#9f62f2]">
+            <a className="btn text-sm sm:hidden text-white bg-linear-to-br from-[#632ee3] to-[#9f62f2]">
               <FontAwesomeIcon icon={faPlus} />
               Ticket
             </a>
