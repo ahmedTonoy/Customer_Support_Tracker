@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <header className="border-b">
       <Container>
-        <div className="navbar bg-base-100">
-          <div className="navbar-start w-7/8 sm:w-1/2">
+        <div className="navbar bg-base-100 px-0">
+          <div className="navbar-start w-full sm:w-1/2">
             <div className="dropdown">
               <div
                 tabIndex={0}
@@ -78,10 +78,14 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="navbar-end">
-            <a className="btn text-white bg-linear-120 from-[#632ee3] to-[#9f62f2]">
+          <div className="navbar-end w-fit sm:w-1/2">
+            <a className="btn hidden sm:inline-flex text-white bg-linear-120 from-[#632ee3] to-[#9f62f2]">
               <FontAwesomeIcon icon={faPlus} />
               New Ticket
+            </a>
+            <a className="btn text-sm sm:hidden text-white bg-linear-120 from-[#632ee3] to-[#9f62f2]">
+              <FontAwesomeIcon icon={faPlus} />
+              Ticket
             </a>
           </div>
         </div>
