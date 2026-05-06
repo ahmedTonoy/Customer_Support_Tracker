@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issue",
+    "description": "User cannot log into the system using correct credentials.",
+    "customer": "John Doe",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failure",
+    "description": "Transaction fails during checkout process.",
+    "customer": "Sarah Khan",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-04-28"
+  },
+  {
+    "id": 1003,
+    "title": "Password Reset Not Working",
+    "description": "Reset link does not redirect properly.",
+    "customer": "Michael Smith",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-05-02"
+  },
+  {
+    "id": 1004,
+    "title": "UI Bug on Dashboard",
+    "description": "Alignment issues on stats cards in mobile view.",
+    "customer": "Ayesha Rahman",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2026-04-25"
+  },
+  {
+    "id": 1005,
+    "title": "Email Notifications Delay",
+    "description": "Emails are delayed by several hours.",
+    "customer": "David Lee",
+    "priority": "medium",
+    "status": "in-progress",
+    "createdAt": "2026-05-03"
+  },
+  {
+    "id": 1006,
+    "title": "Account Suspension Issue",
+    "description": "Account was suspended without clear reason.",
+    "customer": "Fatima Noor",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-04-20"
+  },
+  {
+    "id": 1007,
+    "title": "Search Feature Not Working",
+    "description": "Search returns empty results for valid queries.",
+    "customer": "James Carter",
+    "priority": "medium",
+    "status": "in-progress",
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": 1008,
+    "title": "Profile Update Error",
+    "description": "Unable to save profile changes.",
+    "customer": "Nusrat Jahan",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2026-04-27"
+  },
+  {
+    "id": 1009,
+    "title": "Slow Page Loading",
+    "description": "Dashboard loads very slowly on first visit.",
+    "customer": "Robert Brown",
+    "priority": "medium",
+    "status": "in-progress",
+    "createdAt": "2026-05-02"
+  },
+  {
+    "id": 1010,
+    "title": "Mobile Responsiveness Issue",
+    "description": "Layout breaks on small screen devices.",
+    "customer": "Emily Wilson",
+    "priority": "high",
+    "status": "open",
+    "createdAt": "2026-04-22"
+  },
+  {
+    "id": 1011,
+    "title": "Data Sync Failure",
+    "description": "User data not syncing across devices.",
+    "customer": "Hassan Ali",
+    "priority": "high",
+    "status": "in-progress",
+    "createdAt": "2026-05-03"
+  },
+  {
+    "id": 1012,
+    "title": "Notification Spam",
+    "description": "Users receiving duplicate notifications.",
+    "customer": "Sophia Martinez",
+    "priority": "low",
+    "status": "open",
+    "createdAt": "2026-04-18"
+  },
+  {
+    "id": 1013,
+    "title": "API Timeout Error",
+    "description": "Backend API requests are timing out frequently.",
+    "customer": "Daniel Kim",
+    "priority": "high",
+    "status": "in-progress",
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": 1014,
+    "title": "Dark Mode Issue",
+    "description": "Some components not adapting to dark mode properly.",
+    "customer": "Lina Chowdhury",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2026-04-29"
+  },
+  {
+    "id": 1015,
+    "title": "File Upload Failure",
+    "description": "Users unable to upload files larger than 5MB.",
+    "customer": "Tom Hanks",
+    "priority": "high",
+    "status": "in-progress",
+    "createdAt": "2026-05-03"
+  }
+]
