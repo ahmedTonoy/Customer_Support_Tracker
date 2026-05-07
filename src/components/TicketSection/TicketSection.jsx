@@ -11,7 +11,7 @@ const TicketSection = ({ availableTickets, setTickets }) => {
     );
   };
   return (
-    <div>
+    <div className="mb-8 sm:mb-0">
       <h1 className="text-2xl font-semibold text-[#34485A] mb-4">
         Customer Tickets
       </h1>

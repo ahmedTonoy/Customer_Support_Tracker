@@ -11,7 +11,7 @@ const MainSection = ({
   return (
     <div className="my-10">
       <Container>
-        <div className="grid grid-cols-1 sm:grid-cols-[3fr_1fr] gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-[3fr_1fr] gap-4 sm:gap-7">
           <TicketSection
             availableTickets={availableTickets}
             setTickets={setTickets}
