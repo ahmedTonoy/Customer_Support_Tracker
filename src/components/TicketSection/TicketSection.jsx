@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 import Ticket from "../Ticket/Ticket";
 
 const TicketSection = ({ availableTickets, setTickets }) => {
@@ -9,6 +10,7 @@ const TicketSection = ({ availableTickets, setTickets }) => {
           : ticket,
       ),
     );
+    toast.info(`Ticket [#${id}] is in-progress`, { autoClose: 2000 });
   };
   return (
     <div className="mb-8 sm:mb-0">

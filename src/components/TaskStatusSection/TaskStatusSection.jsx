@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 import ResolvedTaskCard from "../ResolvedTaskCard/ResolvedTaskCard";
 import TaskCard from "../TaskCard/TaskCard";
 
@@ -14,6 +15,7 @@ const TaskStatusSection = ({
           : ticket,
       ),
     );
+    toast.success(`Ticket [#${id}] successfully resolved`, { autoClose: 2000 });
   };
 
   return (
