@@ -79,11 +79,17 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end w-fit sm:w-1/2">
-            <a className="btn hidden sm:inline-flex text-white bg-linear-to-br from-[#632ee3] to-[#9f62f2] hover:from-[#7c3aed] hover:to-[#c084fc] transition-all duration-500">
+            <a
+              className="btn hidden sm:inline-flex text-white bg-linear-to-br from-[#632ee3] to-[#9f62f2] hover:from-[#7c3aed] hover:to-[#c084fc] transition-all duration-500"
+              onClick={() => document.getElementById("my_modal_1").showModal()}
+            >
               <FontAwesomeIcon icon={faPlus} />
               New Ticket
             </a>
-            <a className="btn text-sm sm:hidden text-white bg-linear-to-br from-[#632ee3] to-[#9f62f2]">
+            <a
+              className="btn text-sm sm:hidden text-white bg-linear-to-br from-[#632ee3] to-[#9f62f2]"
+              onClick={() => document.getElementById("my_modal_1").showModal()}
+            >
               <FontAwesomeIcon icon={faPlus} />
               Ticket
             </a>

@@ -29,7 +29,7 @@ const Ticket = ({ ticket, handleAddToTask }) => {
           <p className={text}>{capitalize(status)}</p>
         </div>
       </div>
-      <p className="">{capitalize(description)}</p>
+      <p className="mb-1">{capitalize(description)}</p>
       <div className="mt-auto flex justify-between items-center text-sm">
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 sm:gap-4">
           <h3 className="font-medium">#{id}</h3>

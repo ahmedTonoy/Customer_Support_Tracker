@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import { getTicketStats } from "./utils/getTicketStats";
 import { ToastContainer } from "react-toastify";
 import Footer from "./components/Footer/Footer";
+import NewTicketModal from "./components/NewTicketModal/NewTicketModal";
 
 const fetchTickets = async () => {
   const res = await fetch("./ticket.json");
@@ -49,6 +50,7 @@ function App() {
         ></MainSection>
       </Suspense>
       <ToastContainer></ToastContainer>
+      <NewTicketModal setTickets={setTickets}></NewTicketModal>
       <Footer></Footer>
     </>
   );
