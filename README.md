@@ -1,102 +1,27 @@
+### What is JSX, and why is it used?
 
-## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-007
+JSX, stands for **JavaScript XML**, is a syntax extension for JS, that allows us to write HTML like codes inside javaScript. It makes UI code easier to write and understand.
 
-### 📅 Deadline For 60 marks: 27th September, 2025 (11:59 pm ⏱️)
+### What is the difference between State and Props?
 
-### 📅 No Deadline For 50 marks 
+| Props                                                | State                                            |
+| ---------------------------------------------------- | ------------------------------------------------ |
+| Used to **pass data** from parent to child component | Used to **manage dynamic data** inside component |
+| **Read-only** (can't be changed by child)            | Can be **changed** using setter function         |
+| **Makes** component **reusable**                     | **Controls** component's **behavior**            |
 
-### 📅 Deadline For 30 marks: Any time after 27th September , 2025 (11:59pm⏱️).
+### What is the useState hook, and how does it work?
 
----
+`useState` is a **React Hook** that allows functional components to manage **_state_**. Any update of the state variable using the setter function triggers a **_re-render_** of the designated component.
 
-# Private Repository: https://classroom.github.com/a/VVl8VKya
+### How can you share state between components in React?
 
-# Customer Support Zone
+State can be shared by **lifting up** state. For this, we have to move the state **_up_**, from a child component, until we meet a **common parent** of the components which want to share the state and then **pass** the state **as prop** **_down_** to the desired child component.
 
-This project is a React-based **Customer Support Zone** designed to display customer tickets, track progress, and mark them as resolved. It follows a Figma design and includes additional features like status management, responsiveness, and toast notifications using **React-Toastify**.
+### How is event handling done in React?
 
----
+React handles events using **camelCase syntax** and passes a function as the event handler. For example:
 
-## 📌 Features & Requirements 
-
-### ✅ Navbar 
-
-* Website name/logo on the **left**.
-* Menu items and **New Ticket** button on the **right**.
-
-### ✅ Banner
-
-* Banner section designed according to Figma.
-* Shows a **linear gradient** background.
-* Displays ticket statistics:
-
-  * **In Progress Count**
-  * **Resolved Count** (default = 0).
-
-### ✅ Main Section
-
-1. **JSON Data **
-
-   * Created **10–15 tickets** with the following properties:
-
-     * `id`, `title`, `description`, `customer`, `priority`, `status`, `createdAt`.
-
-2. **Ticket Cards**
-
-   * Display all ticket information in a **card layout**.
-   * Cards arranged in a **2-column grid** (left side).
-
-3. **Task Status Section**
-
-   * Clicking a card adds it to the **Task Status Section** (right side) and shows alert. It will increase the count of in-progress in banner
-   * Task Status shows:
-
-     * Ticket Title
-     * **Complete Button**
-   * Clicking **Complete Button**:
-
-     * show alert
-     
-
-
-### ✅ Footer 
-
-* Designed according to Figma.
-
-### ✅ Responsiveness 
-
-* The entire website is **responsive** for mobile devices.
-
-### ✅ Readme: 
-Create a README file to answer the following question-
-
- - What is JSX, and why is it used?
- - What is the difference between State and Props?
- - What is the useState hook, and how does it work?
- - How can you share state between components in React?
- - How is event handling done in React?
-
----
-
-### 
-
-## 📌 Challenge Requirements 
-
-### 🔔 React-Toastify 
-
-* Used **React-Toastify** to replace all alerts with stylish toast notifications.
-
-### 📝 Task Completion Logic 
-
-Clicking **Complete Button**:
-
-1. It is **removed from Task Status**. 
-2. It is added to the **Resolved List**. 
-3. The **In Progress count decreases**. 
-4. The **Resolved count increases**. 
-5. It is removed from the **Customer Tickets list**. 
-
-
----
-
-
+```js
+<button onClick={() => handleClick("Hello")}>Click</button>
+```
