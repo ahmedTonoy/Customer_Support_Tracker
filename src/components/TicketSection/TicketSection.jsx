@@ -17,15 +17,19 @@ const TicketSection = ({ availableTickets, setTickets }) => {
       <h1 className="text-2xl font-semibold text-[#34485A] mb-4">
         Customer Tickets
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        {availableTickets.map((ticket) => (
-          <Ticket
-            key={ticket.id}
-            ticket={ticket}
-            handleAddToTask={handleAddToTask}
-          ></Ticket>
-        ))}
-      </div>
+      {availableTickets.length === 0 ? (
+        <p>No pending ticket right now</p>
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {availableTickets.map((ticket) => (
+            <Ticket
+              key={ticket.id}
+              ticket={ticket}
+              handleAddToTask={handleAddToTask}
+            ></Ticket>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

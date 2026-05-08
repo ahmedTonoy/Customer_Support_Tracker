@@ -4,7 +4,7 @@ import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <header className="bg-base-100 border-b">
+    <header className="bg-base-100">
       <Container>
         <div className="navbar bg-base-100 px-0">
           <div className="navbar-start w-full sm:w-1/2">
