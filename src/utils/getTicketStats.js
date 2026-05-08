@@ -16,6 +16,9 @@ export const getTicketStats = (tickets) => {
     }
   }
 
+  inProgress.sort((a, b) => b.startedAt - a.startedAt);
+  resolved.sort((a, b) => b.resolvedAt - a.resolvedAt);
+
   return {
     availableTickets: available,
     inProgressTickets: inProgress,

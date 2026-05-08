@@ -6,7 +6,9 @@
     "customer": "John Doe",
     "priority": "high",
     "status": "open",
-    "createdAt": "2026-05-01"
+    "createdAt": "2026-05-01",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1002,
@@ -15,7 +17,9 @@
     "customer": "Sarah Khan",
     "priority": "high",
     "status": "open",
-    "createdAt": "2026-04-28"
+    "createdAt": "2026-04-28",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1003,
@@ -24,7 +28,9 @@
     "customer": "Michael Smith",
     "priority": "medium",
     "status": "open",
-    "createdAt": "2026-05-02"
+    "createdAt": "2026-05-02",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1004,
@@ -33,7 +39,9 @@
     "customer": "Ayesha Rahman",
     "priority": "low",
     "status": "open",
-    "createdAt": "2026-04-25"
+    "createdAt": "2026-04-25",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1005,
@@ -42,7 +50,9 @@
     "customer": "David Lee",
     "priority": "medium",
     "status": "in-progress",
-    "createdAt": "2026-05-03"
+    "createdAt": "2026-05-03",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1006,
@@ -51,7 +61,9 @@
     "customer": "Fatima Noor",
     "priority": "high",
     "status": "open",
-    "createdAt": "2026-04-20"
+    "createdAt": "2026-04-20",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1007,
@@ -60,7 +72,9 @@
     "customer": "James Carter",
     "priority": "medium",
     "status": "in-progress",
-    "createdAt": "2026-05-01"
+    "createdAt": "2026-05-01",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1008,
@@ -69,7 +83,9 @@
     "customer": "Nusrat Jahan",
     "priority": "low",
     "status": "open",
-    "createdAt": "2026-04-27"
+    "createdAt": "2026-04-27",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1009,
@@ -78,7 +94,9 @@
     "customer": "Robert Brown",
     "priority": "medium",
     "status": "in-progress",
-    "createdAt": "2026-05-02"
+    "createdAt": "2026-05-02",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1010,
@@ -87,7 +105,9 @@
     "customer": "Emily Wilson",
     "priority": "high",
     "status": "open",
-    "createdAt": "2026-04-22"
+    "createdAt": "2026-04-22",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1011,
@@ -96,7 +116,9 @@
     "customer": "Hassan Ali",
     "priority": "high",
     "status": "in-progress",
-    "createdAt": "2026-05-03"
+    "createdAt": "2026-05-03",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1012,
@@ -105,7 +127,9 @@
     "customer": "Sophia Martinez",
     "priority": "low",
     "status": "open",
-    "createdAt": "2026-04-18"
+    "createdAt": "2026-04-18",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1013,
@@ -114,7 +138,9 @@
     "customer": "Daniel Kim",
     "priority": "high",
     "status": "in-progress",
-    "createdAt": "2026-05-01"
+    "createdAt": "2026-05-01",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1014,
@@ -123,7 +149,9 @@
     "customer": "Lina Chowdhury",
     "priority": "medium",
     "status": "open",
-    "createdAt": "2026-04-29"
+    "createdAt": "2026-04-29",
+    "startedAt": null,
+    "resolvedAt": null
   },
   {
     "id": 1015,
@@ -132,6 +160,8 @@
     "customer": "Tom Hanks",
     "priority": "high",
     "status": "in-progress",
-    "createdAt": "2026-05-03"
+    "createdAt": "2026-05-03",
+    "startedAt": null,
+    "resolvedAt": null
   }
 ]

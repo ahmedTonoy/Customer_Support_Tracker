@@ -11,7 +11,7 @@ const TaskStatusSection = ({
     setTickets((prev) =>
       prev.map((ticket) =>
         ticket.id === id && ticket.status === "in-progress"
-          ? { ...ticket, status: "resolved" }
+          ? { ...ticket, status: "resolved", resolvedAt: Date.now() }
           : ticket,
       ),
     );

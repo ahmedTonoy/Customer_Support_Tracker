@@ -6,7 +6,7 @@ const TicketSection = ({ availableTickets, setTickets }) => {
     setTickets((prev) =>
       prev.map((ticket) =>
         ticket.id === id && ticket.status === "open"
-          ? { ...ticket, status: "in-progress" }
+          ? { ...ticket, status: "in-progress", startedAt: Date.now() }
           : ticket,
       ),
     );
